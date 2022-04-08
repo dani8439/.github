@@ -35,3 +35,4 @@ The following is a set of guidelines for contributing to Atom and its packages, 
 # Who is involved? 
 
 # Where can I ask for help? 
+If you have any questions, please contact <ljharb@gmail.com>.
