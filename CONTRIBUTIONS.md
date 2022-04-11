@@ -16,6 +16,8 @@ The following is a set of guidelines for contributing to all the repositories ma
 
 * [Pull Requests](#pull-requests)
 
+[Dev Environment](#dev-environment)
+
 [Style Guide / Coding conventions](#style-guide--coding-conventions)
 
 * [How to Write Commit Messages](#commit-messages)
@@ -91,13 +93,15 @@ git push origin issue1234
 
 Send the [pull request](https://docs.github.com/en/pull-requests), make requested changes, and get merged.
 
+# Dev Environment
+
 # Style Guide / Coding conventions 
 
 ### Commit Messages
 
 * Limit the first line of the commit message (message summary) to 72 characters or less
-* Use the present tense and imperative mood when providing a description of what you did
-* If your PR addresses an issue, reference it in the body of the commit message
+* Use the present tense ("Add feature" not "Added feature") and imperative mood ("Move cursor to..." not "Moves cursor to...") when providing a description of what you did
+* If your PR addresses an issue, reference it in the body of the commit message.
 * See the rest of the conventions [here](https://gist.github.com/ljharb/772b0334387a4bee89af24183114b3c7)
 
 #### Commit message example
