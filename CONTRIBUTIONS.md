@@ -14,11 +14,11 @@ The following is a set of guidelines for contributing to all the repositories ma
 
 * [Documentation](#documentation)
 
-* [Pull Requests](#pull-requests)
-
 [Dev Environment](#dev-environment)
 
 [Style Guide / Coding conventions](#style-guide--coding-conventions)
+
+* [Pull Requests](#pull-requests)
 
 * [How to Write Commit Messages](#commit-messages)
 
@@ -54,7 +54,29 @@ Explain the problem and include additional details to help maintainers reproduce
 
 We are happy to welcome contributions from anyone willing to improve documentation by adding missing information or making it more consistent and coherent. 
 
-## Pull requests
+# Dev Environment
+
+* Install [Node.js](https://nodejs.org/en/), preferably with [nvm](https://github.com/nvm-sh/nvm)
+
+* [Fork the repo and clone your fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+
+* Get all dependencies
+  ```
+  npm install
+  ```
+* Add the upstream source for being able to sync main project changes back into your fork. For example, to configure an upstream remote repository for the `repo-report` fork, run:
+  ```
+  git remote add upstream git@github.com:ljharb/repo-report.git
+  ```
+* Run the tests and the build
+  ```
+  npm test
+  ```
+* Make and submit changes to the project source files following our [pull request submission workflow](#pull-requests)
+
+# Style Guide / Coding conventions 
+
+### Pull requests
 
 Create a new branch
 
@@ -90,28 +112,6 @@ git push origin issue1234
 ```
 
 Send the [pull request](https://docs.github.com/en/pull-requests), make requested changes, and get merged.
-
-# Dev Environment
-
-* Install [Node.js](https://nodejs.org/en/), preferably with [nvm](https://github.com/nvm-sh/nvm)
-
-* [Fork the repo and clone your fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
-
-* Get all dependencies
-  ```
-  npm install
-  ```
-* Add the upstream source for being able to sync main project changes back into your fork. For example, to configure an upstream remote repository for the `repo-report` fork, run:
-  ```
-  git remote add upstream git@github.com:ljharb/repo-report.git
-  ```
-* Run the tests and the build
-  ```
-  npm test
-  ```
-* Make and submit changes to the project source files following our [pull request submission workflow](#pull-requests)
-
-# Style Guide / Coding conventions 
 
 ### Commit Messages
 
