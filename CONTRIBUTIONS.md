@@ -42,9 +42,19 @@ You can consider helping out with issues already requiring attention - look for 
 
 ## Reporting issues 
 
-If you run into problems in the project, you can report them by opening a new issue and providing as much context as you can about what you're running into, along with a failing code sample to help others verify and ultimately fix the issue. 
+If you run into problems in the project, you can report them by opening a new issue within the repository. Before filing an issue, please perform a cursory search to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
 
-> **Note:** Before filing an issue, please check both open and closed issues to see if the problem has already been reported.
+### How Do I Submit a (Good) Bug Report? 
+
+Explain the problem and include additional details to help maintainers reproduce the problem:
+
+* **Use a clear and descriptive title** for the issue to identify the problem.
+
+* **Describe the exact steps which reproduce the problem** in as many details as possible. For example, start by explaining which command exactly you used in the terminal. When listing steps, **don't just say what you did, but explain how you did it**. For example, if you moved the cursor to the end of a line, explain if you used the mouse, or a keyboard shortcut or a command, and if so which one?
+* **Provide specific examples to demonstrate the steps**. Include links to files or Github projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
+* **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior. 
+* **Explain which behavior you expected to see instead and why.** 
+* **Provide as much context as possible** in order to help others verify and ultimately fix the issue. 
 
 ## Documentation
 
