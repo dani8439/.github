@@ -24,8 +24,6 @@ The following is a set of guidelines for contributing to all the repositories ma
 
 [Code of Conduct](#code-of-conduct)
 
-[Who is involved?](#who-is-involved)
-
 [Where can I ask for help?](#where-can-i-ask-for-help)
 
 # How Can I Contribute?
@@ -95,12 +93,30 @@ Send the [pull request](https://docs.github.com/en/pull-requests), make requeste
 
 # Dev Environment
 
+* Install [Node.js](https://nodejs.org/en/), preferably with [nvm](https://github.com/nvm-sh/nvm)
+
+* [Fork the repo and clone your fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+
+* Get all dependencies
+  ```
+  npm install
+  ```
+* Add the upstream source for being able to sync main project changes back into your fork. For example, to configure an upstream remote repository for the `repo-report` fork, run:
+  ```
+  git remote add upstream git@github.com:ljharb/repo-report.git
+  ```
+* Run the tests and the build
+  ```
+  npm test
+  ```
+* Make and submit changes to the project source files following our [pull request submission workflow](#pull-requests)
+
 # Style Guide / Coding conventions 
 
 ### Commit Messages
 
-* Limit the first line of the commit message (message summary) to 72 characters or less
-* Use the present tense ("Add feature" not "Added feature") and imperative mood ("Move cursor to..." not "Moves cursor to...") when providing a description of what you did
+* Limit the first line of the commit message (message summary) to 72 characters or less.
+* Use the present tense ("Add feature" not "Added feature") and imperative mood ("Move cursor to..." not "Moves cursor to...") when providing a description of what you did.
 * If your PR addresses an issue, reference it in the body of the commit message.
 * See the rest of the conventions [here](https://gist.github.com/ljharb/772b0334387a4bee89af24183114b3c7)
 
@@ -124,8 +140,6 @@ Co-authored-by: Name Here <email@here>
 
 # Code of Conduct 
 [Code of Conduct](https://github.com/ljharb/.github/blob/main/CODE_OF_CONDUCT.md)
-
-# Who is involved? 
 
 # Where can I ask for help? 
 If you have any questions, please contact <ljharb@gmail.com>.
