@@ -14,13 +14,7 @@ The following is a set of guidelines for contributing to all the repositories ma
 
 * [Documentation](#documentation)
 
-[Testing](#testing)
-
-[Environment Details](#environment-details)
-
-[How to submit changes](#how-to-submit-changes)
-
-[How to request an enhancement](#how-to-request-an-"enhancement")
+* [Pull Requests](#pull-requests)
 
 [Style Guide / Coding conventions](#style-guide--coding-conventions)
 
@@ -60,13 +54,42 @@ Explain the problem and include additional details to help maintainers reproduce
 
 We are happy to welcome contributions from anyone willing to improve documentation by adding missing information or making it more consistent and coherent. 
 
-# Testing 
+## Pull requests
 
-# Environment details 
+Create a new branch
 
-# How to submit changes 
+```
+git checkout -b issue1234
+```
 
-# How to request an "enhancement" 
+Commit the changes to your branch, including a coherent commit message that follows our [standards](#commit-messages)
+
+```
+git commit -a
+```
+
+Before sending the pull request, make sure your code is running on the latest available code by rebasing onto the upstream source
+
+```
+git fetch upstream
+git rebase upstream/main
+```
+
+Verify your changes
+
+```
+npm test
+# or
+npm run tests-only
+```
+
+Push your changes
+
+```
+git push origin issue1234
+```
+
+Send the [pull request](https://docs.github.com/en/pull-requests), make requested changes, and get merged.
 
 # Style Guide / Coding conventions 
 
