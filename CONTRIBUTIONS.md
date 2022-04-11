@@ -8,15 +8,17 @@ The following is a set of guidelines for contributing to all the repositories ma
 
 [How Can I contribute?](#how-can-i-contribute)
 
+* [Resolving Existing Issues](#resolving-existing-issues)
+
+* [Reporting Issues](#reporting-issues)
+
+* [Documentation](#documentation)
+
 [Testing](#testing)
 
 [Environment Details](#environment-details)
 
 [How to submit changes](#how-to-submit-changes)
-
-[How to report a bug](#how-to-report-a-bug)
-
-[First bugs for contributors](#first-bugs-for-contributors)
 
 [How to request an enhancement](#how-to-request-an-"enhancement")
 
@@ -32,15 +34,27 @@ The following is a set of guidelines for contributing to all the repositories ma
 
 # How Can I Contribute?
 
+There are lots of ways to get involved. Here are some suggestions of things we'd love some help with. 
+
+## Resolving existing issues 
+
+You can consider helping out with issues already requiring attention - look for a "help wanted" label. 
+
+## Reporting issues 
+
+If you run into problems in the project, you can report them by opening a new issue and providing as much context as you can about what you're running into, along with a failing code sample to help others verify and ultimately fix the issue. 
+
+> **Note:** Before filing an issue, please check both open and closed issues to see if the problem has already been reported.
+
+## Documentation
+
+We are happy to welcome contributions from anyone willing to improve documentation by adding missing information or making it more consistent and coherent. 
+
 # Testing 
 
 # Environment details 
 
 # How to submit changes 
-
-# How to report a bug
-
-# First bugs for Contributors 
 
 # How to request an "enhancement" 
 
